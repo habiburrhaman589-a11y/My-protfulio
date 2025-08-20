@@ -2,8 +2,6 @@ import React from 'react';
 
 export default function PortfolioWebsite() {
   return (
-    export default function PortfolioWebsite() {
-  return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-black/30 backdrop-blur-md flex justify-between items-center p-4 z-50">
@@ -107,7 +105,5 @@ export default function PortfolioWebsite() {
         </div>
       </footer>
     </div>
-  );
-    }
   );
 }
