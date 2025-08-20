@@ -3,9 +3,6 @@ import React from 'react';
 export default function PortfolioWebsite() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 text-white">
-    export default function PortfolioWebsite() {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 text-white">
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full bg-black/30 backdrop-blur-md flex justify-between items-center p-4 z-50">
         <h1 className="text-2xl font-bold">Habibur Rahman</h1>
@@ -57,59 +54,4 @@ export default function PortfolioWebsite() {
           <div className="bg-gray-800 rounded-2xl shadow-lg p-6 hover:scale-105 transition">
             <div className="h-40 bg-gray-700 rounded-xl mb-4"></div>
             <h4 className="text-xl font-semibold mb-2">Finding a GF</h4>
-            <p className="text-gray-300">A fun journey of exploring relationships and personal connections.</p>
-          </div>
-          <div className="bg-gray-800 rounded-2xl shadow-lg p-6 hover:scale-105 transition">
-            <div className="h-40 bg-gray-700 rounded-xl mb-4"></div>
-            <h4 className="text-xl font-semibold mb-2">HSC তে কোপ 😎</h4>
-            <p className="text-gray-300">Preparing hard to crack HSC exams with confidence and dedication.</p>
-          </div>
-          <div className="bg-gray-800 rounded-2xl shadow-lg p-6 hover:scale-105 transition">
-            <div className="h-40 bg-gray-700 rounded-xl mb-4"></div>
-            <h4 className="text-xl font-semibold mb-2">Making Self Depend</h4>
-            <p className="text-gray-300">Learning and working towards becoming financially and personally independent.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Skills Section */}
-      <section id="skills" className="py-20 px-6 md:px-20 bg-white text-black text-center">
-        <h3 className="text-4xl font-bold mb-12">Skills</h3>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-          {["Self Employer", "Prompt Engineer", "Class Topper 😁"].map((skill) => (
-            <div key={skill} className="p-6 rounded-2xl shadow-md bg-gray-100 hover:bg-yellow-200 transition">
-              <h4 className="text-xl font-semibold">{skill}</h4>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Contact Section */}
-      <section id="contact" className="py-20 px-6 md:px-20 bg-gray-900 text-center">
-        <h3 className="text-4xl font-bold mb-6">Contact Me</h3>
-        <form className="max-w-xl mx-auto space-y-4">
-          <input type="text" placeholder="Your Name" className="w-full px-4 py-3 rounded-xl focus:outline-none text-black" />
-          <input type="email" placeholder="Your Email" className="w-full px-4 py-3 rounded-xl focus:outline-none text-black" />
-          <textarea placeholder="Your Message" className="w-full px-4 py-3 rounded-xl focus:outline-none text-black h-32"></textarea>
-          <button type="submit" className="px-6 py-3 bg-yellow-300 text-black rounded-full font-semibold shadow-lg hover:scale-105 transition">Send Message</button>
-        </form>
-        <div className="flex justify-center space-x-6 mt-8">
-          <a href="https://wa.me/message/6KNG5BCTVB4OI1" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300">WhatsApp</a>
-          <a href="https://www.facebook.com/share/1BrPa8dq6t/" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-300">Facebook</a>
-        </div>
-      </section>
-
-      {/* Footer */}
-      <footer className="py-6 bg-black/50 text-center">
-        <p>© 2025 Habibur Rahman. All Rights Reserved.</p>
-        <div className="flex justify-center space-x-6 mt-4">
-          <a href="https://wa.me/message/6KNG5BCTVB4OI1" className="hover:text-yellow-300">WhatsApp</a>
-          <a href="https://www.facebook.com/share/1BrPa8dq6t/" className="hover:text-yellow-300">Facebook</a>
-        </div>
-      </footer>
-    </div>
-  );
-    }
-    </div>
-  );
-}
+            <p className="text-gray-300">
